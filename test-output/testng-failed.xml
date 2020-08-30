@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flight]">
+  <test name="Flight and Cruise Booking(failed)">
+    <classes>
+      <class name="seleniumdemotests.bookflight.BookFlightWithPreExistingUserOnHome">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- seleniumdemotests.bookflight.BookFlightWithPreExistingUserOnHome -->
+      <class name="seleniumdemotests.bookflight.BookFlightTestWithOutSignIn">
+        <methods>
+          <include name="afterTest"/>
+          <include name="initialize"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- seleniumdemotests.bookflight.BookFlightTestWithOutSignIn -->
+      <class name="seleniumdemotests.bookcruise.BookCruiseWithoutSignIn">
+        <methods>
+          <include name="testBookFlightWithoutSignIn"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- seleniumdemotests.bookcruise.BookCruiseWithoutSignIn -->
+      <class name="seleniumdemotests.bookflight.BookFlightTestWithNewRegisterUser">
+        <methods>
+          <include name="initialize"/>
+          <include name="testBookFlightTestWithNewRegisterUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- seleniumdemotests.bookflight.BookFlightTestWithNewRegisterUser -->
+      <class name="seleniumdemotests.RegisterTest">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- seleniumdemotests.RegisterTest -->
+    </classes>
+  </test> <!-- Flight and Cruise Booking(failed) -->
+</suite> <!-- Failed suite [Flight] -->

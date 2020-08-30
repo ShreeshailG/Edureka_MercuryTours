@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Flight" duration-ms="165858" started-at="2020-08-30T18:34:56Z" finished-at="2020-08-30T18:37:41Z">
+    <groups>
+    </groups>
+    <test name="Flight and Cruise Booking" duration-ms="165858" started-at="2020-08-30T18:34:56Z" finished-at="2020-08-30T18:37:41Z">
+      <class name="seleniumdemotests.bookcruise.BookCruiseWithoutSignIn">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:seleniumdemotests.bookcruise.BookCruiseWithoutSignIn@27efef64]" name="initialize" is-config="true" duration-ms="37" started-at="2020-08-31T00:04:56Z" finished-at="2020-08-31T00:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:seleniumdemotests.bookflight.BookFlightTestWithNewRegisterUser@6f7fd0e6]" name="initialize" is-config="true" duration-ms="1" started-at="2020-08-31T00:04:56Z" finished-at="2020-08-31T00:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:seleniumdemotests.bookflight.BookFlightTestWithOutSignIn@2b98378d]" name="initialize" is-config="true" duration-ms="1" started-at="2020-08-31T00:04:56Z" finished-at="2020-08-31T00:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:seleniumdemotests.bookflight.BookFlightWithPreExistingUserOnHome@59f99ea]" name="initialize" is-config="true" duration-ms="17150" started-at="2020-08-31T00:04:56Z" finished-at="2020-08-31T00:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:seleniumdemotests.RegisterTest@47c62251]" name="initialize" is-config="true" duration-ms="55741" started-at="2020-08-31T00:05:13Z" finished-at="2020-08-31T00:06:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="testBookFlightWithoutSignIn()[pri:0, instance:seleniumdemotests.bookcruise.BookCruiseWithoutSignIn@27efef64]" name="testBookFlightWithoutSignIn" duration-ms="7" started-at="2020-08-31T00:06:17Z" finished-at="2020-08-31T00:06:17Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at seleniumdemotests.bookcruise.BookCruiseWithoutSignIn.testBookFlightWithoutSignIn(BookCruiseWithoutSignIn.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookFlightWithoutSignIn -->
+      </class> <!-- seleniumdemotests.bookcruise.BookCruiseWithoutSignIn -->
+      <class name="seleniumdemotests.RegisterTest">
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:seleniumdemotests.RegisterTest@47c62251]" name="register" duration-ms="8142" started-at="2020-08-31T00:06:09Z" data-provider="registrationAndFlight" finished-at="2020-08-31T00:06:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastName1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[emai@email.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[address]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[state]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[IRAQ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[firstName1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- seleniumdemotests.RegisterTest -->
+      <class name="seleniumdemotests.bookflight.BookFlightTestWithNewRegisterUser">
+        <test-method status="FAIL" signature="testBookFlightTestWithNewRegisterUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:seleniumdemotests.bookflight.BookFlightTestWithNewRegisterUser@6f7fd0e6]" name="testBookFlightTestWithNewRegisterUser" duration-ms="5" started-at="2020-08-31T00:06:17Z" data-provider="registrationAndFlight" finished-at="2020-08-31T00:06:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[emai@email.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[address]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[state]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[IRAQ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at seleniumdemotests.bookflight.BookFlightTestWithNewRegisterUser.testBookFlightTestWithNewRegisterUser(BookFlightTestWithNewRegisterUser.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookFlightTestWithNewRegisterUser -->
+      </class> <!-- seleniumdemotests.bookflight.BookFlightTestWithNewRegisterUser -->
+      <class name="seleniumdemotests.bookflight.BookFlightWithPreExistingUserOnHome">
+        <test-method status="PASS" signature="testBookFlightWithPreExistingUserOnHome()[pri:0, instance:seleniumdemotests.bookflight.BookFlightWithPreExistingUserOnHome@59f99ea]" name="testBookFlightWithPreExistingUserOnHome" duration-ms="52716" started-at="2020-08-31T00:06:49Z" finished-at="2020-08-31T00:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookFlightWithPreExistingUserOnHome -->
+      </class> <!-- seleniumdemotests.bookflight.BookFlightWithPreExistingUserOnHome -->
+      <class name="seleniumdemotests.bookflight.BookFlightTestWithOutSignIn">
+        <test-method status="PASS" signature="setup()[pri:0, instance:seleniumdemotests.bookflight.BookFlightTestWithOutSignIn@2b98378d]" name="setup" is-config="true" duration-ms="15166" started-at="2020-08-31T00:04:40Z" finished-at="2020-08-31T00:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testBookFlightWithoutSignIn()[pri:0, instance:seleniumdemotests.bookflight.BookFlightTestWithOutSignIn@2b98378d]" name="testBookFlightWithoutSignIn" duration-ms="32030" started-at="2020-08-31T00:06:17Z" finished-at="2020-08-31T00:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookFlightWithoutSignIn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:seleniumdemotests.bookflight.BookFlightTestWithOutSignIn@2b98378d]" name="afterTest" is-config="true" duration-ms="1006" started-at="2020-08-31T00:07:41Z" finished-at="2020-08-31T00:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- seleniumdemotests.bookflight.BookFlightTestWithOutSignIn -->
+    </test> <!-- Flight and Cruise Booking -->
+  </suite> <!-- Flight -->
+</testng-results>
